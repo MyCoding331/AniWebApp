@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "AniWeb",
+    "slug": "AniWeb",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "aniwenIos"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      },
+      
+      "package": "com.syed_moiz_ali.animesama"
+    },
+    "web": {
+      "favicon": "./assets/favicon.icon"
+    },
+    
+    "extra": {
+      "eas": {
+        "projectId": "4fae6cef-4574-4a0e-8211-8a9619f6c059"
+      }
+    }
+  }
+}
