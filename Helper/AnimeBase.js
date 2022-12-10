@@ -1,4 +1,4 @@
-const ANIME_URL = 'https://nativeapi.vercel.app/'
+const ANIME_URL = ''
 
 
 export default ANIME_URL
